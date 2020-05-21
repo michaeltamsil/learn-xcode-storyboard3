@@ -19,6 +19,8 @@
 		A94E76312476BF3500908FAD /* Ilham.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A94E76302476BF3500908FAD /* Ilham.storyboard */; };
 		A94E76332476BF4300908FAD /* Jason.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A94E76322476BF4300908FAD /* Jason.storyboard */; };
 		A94E76352476BF5C00908FAD /* Aldo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A94E76342476BF5C00908FAD /* Aldo.storyboard */; };
+		A9C4885C2476CD490084B65C /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A9C4885A2476CD490084B65C /* Model.xcdatamodeld */; };
+		A9C4885F2476CDB60084B65C /* kedua.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9C4885E2476CDB60084B65C /* kedua.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		A94E76302476BF3500908FAD /* Ilham.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Ilham.storyboard; sourceTree = "<group>"; };
 		A94E76322476BF4300908FAD /* Jason.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Jason.storyboard; sourceTree = "<group>"; };
 		A94E76342476BF5C00908FAD /* Aldo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Aldo.storyboard; sourceTree = "<group>"; };
+		A9C4885B2476CD490084B65C /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		A9C4885E2476CDB60084B65C /* kedua.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = kedua.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,7 @@
 		A904D69B24769FE30073EE52 = {
 			isa = PBXGroup;
 			children = (
+				A9C4885A2476CD490084B65C /* Model.xcdatamodeld */,
 				A904D6A624769FE40073EE52 /* learn-xcode-storyboard3 */,
 				A904D6A524769FE40073EE52 /* Products */,
 			);
@@ -75,7 +80,7 @@
 				A904D6B024769FE50073EE52 /* Assets.xcassets */,
 				A904D6B224769FE50073EE52 /* LaunchScreen.storyboard */,
 				A904D6B524769FE50073EE52 /* Info.plist */,
-				A94E762A2476BF0600908FAD /* Aji.storyboard */,
+				A9C4885D2476CDA50084B65C /* Aji */,
 				A94E762C2476BF1800908FAD /* Reny.storyboard */,
 				A94E762E2476BF2400908FAD /* Nani.storyboard */,
 				A94E76302476BF3500908FAD /* Ilham.storyboard */,
@@ -83,6 +88,15 @@
 				A94E76342476BF5C00908FAD /* Aldo.storyboard */,
 			);
 			path = "learn-xcode-storyboard3";
+			sourceTree = "<group>";
+		};
+		A9C4885D2476CDA50084B65C /* Aji */ = {
+			isa = PBXGroup;
+			children = (
+				A94E762A2476BF0600908FAD /* Aji.storyboard */,
+				A9C4885E2476CDB60084B65C /* kedua.storyboard */,
+			);
+			path = Aji;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +164,7 @@
 				A94E762F2476BF2400908FAD /* Nani.storyboard in Resources */,
 				A904D6AF24769FE40073EE52 /* Main.storyboard in Resources */,
 				A94E76352476BF5C00908FAD /* Aldo.storyboard in Resources */,
+				A9C4885F2476CDB60084B65C /* kedua.storyboard in Resources */,
 				A94E76332476BF4300908FAD /* Jason.storyboard in Resources */,
 				A94E76312476BF3500908FAD /* Ilham.storyboard in Resources */,
 			);
@@ -165,6 +180,7 @@
 				A904D6AC24769FE40073EE52 /* ViewController.swift in Sources */,
 				A904D6A824769FE40073EE52 /* AppDelegate.swift in Sources */,
 				A904D6AA24769FE40073EE52 /* SceneDelegate.swift in Sources */,
+				A9C4885C2476CD490084B65C /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +378,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A9C4885A2476CD490084B65C /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A9C4885B2476CD490084B65C /* Model.xcdatamodel */,
+			);
+			currentVersion = A9C4885B2476CD490084B65C /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = A904D69C24769FE30073EE52 /* Project object */;
 }
