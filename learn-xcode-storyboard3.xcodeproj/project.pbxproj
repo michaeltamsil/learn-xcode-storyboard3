@@ -13,8 +13,6 @@
 		A904D6AF24769FE40073EE52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A904D6AD24769FE40073EE52 /* Main.storyboard */; };
 		A904D6B124769FE50073EE52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A904D6B024769FE50073EE52 /* Assets.xcassets */; };
 		A904D6B424769FE50073EE52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A904D6B224769FE50073EE52 /* LaunchScreen.storyboard */; };
-		A904D6BE2476A1030073EE52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A904D6BD2476A1030073EE52 /* Main.storyboard */; };
-		A904D6C12476A1E70073EE52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A904D6C02476A1E70073EE52 /* Main.storyboard */; };
 		A94E762B2476BF0600908FAD /* Aji.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A94E762A2476BF0600908FAD /* Aji.storyboard */; };
 		A94E762D2476BF1800908FAD /* Reny.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A94E762C2476BF1800908FAD /* Reny.storyboard */; };
 		A94E762F2476BF2400908FAD /* Nani.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A94E762E2476BF2400908FAD /* Nani.storyboard */; };
@@ -32,8 +30,6 @@
 		A904D6B024769FE50073EE52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A904D6B324769FE50073EE52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A904D6B524769FE50073EE52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A904D6BD2476A1030073EE52 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		A904D6C02476A1E70073EE52 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		A94E762A2476BF0600908FAD /* Aji.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Aji.storyboard; sourceTree = "<group>"; };
 		A94E762C2476BF1800908FAD /* Reny.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Reny.storyboard; sourceTree = "<group>"; };
 		A94E762E2476BF2400908FAD /* Nani.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Nani.storyboard; sourceTree = "<group>"; };
@@ -72,8 +68,6 @@
 		A904D6A624769FE40073EE52 /* learn-xcode-storyboard3 */ = {
 			isa = PBXGroup;
 			children = (
-				A904D6BF2476A1BE0073EE52 /* OutdoorExercise */,
-				A904D6BC2476A0AD0073EE52 /* IndoorExercise */,
 				A904D6A724769FE40073EE52 /* AppDelegate.swift */,
 				A904D6A924769FE40073EE52 /* SceneDelegate.swift */,
 				A904D6AB24769FE40073EE52 /* ViewController.swift */,
@@ -89,22 +83,6 @@
 				A94E76342476BF5C00908FAD /* Aldo.storyboard */,
 			);
 			path = "learn-xcode-storyboard3";
-			sourceTree = "<group>";
-		};
-		A904D6BC2476A0AD0073EE52 /* IndoorExercise */ = {
-			isa = PBXGroup;
-			children = (
-				A904D6BD2476A1030073EE52 /* Main.storyboard */,
-			);
-			path = IndoorExercise;
-			sourceTree = "<group>";
-		};
-		A904D6BF2476A1BE0073EE52 /* OutdoorExercise */ = {
-			isa = PBXGroup;
-			children = (
-				A904D6C02476A1E70073EE52 /* Main.storyboard */,
-			);
-			path = OutdoorExercise;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,9 +149,7 @@
 				A94E762D2476BF1800908FAD /* Reny.storyboard in Resources */,
 				A94E762F2476BF2400908FAD /* Nani.storyboard in Resources */,
 				A904D6AF24769FE40073EE52 /* Main.storyboard in Resources */,
-				A904D6C12476A1E70073EE52 /* Main.storyboard in Resources */,
 				A94E76352476BF5C00908FAD /* Aldo.storyboard in Resources */,
-				A904D6BE2476A1030073EE52 /* Main.storyboard in Resources */,
 				A94E76332476BF4300908FAD /* Jason.storyboard in Resources */,
 				A94E76312476BF3500908FAD /* Ilham.storyboard in Resources */,
 			);
