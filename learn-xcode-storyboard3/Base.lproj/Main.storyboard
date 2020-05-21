@@ -15,18 +15,53 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-]
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vek-iO-GWw">
-                                <rect key="frame" x="186" y="270" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="imQ-NT-odZ">
-                                <rect key="frame" x="184" y="150" width="46" height="30"/>
+                                <rect key="frame" x="192" y="150" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Aji"/>
+                                <connections>
+                                    <segue destination="MZp-EK-YCy" kind="show" id="kKw-tU-hW2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aw3-BS-QCk">
+                                <rect key="frame" x="190" y="188" width="34" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Reny"/>
+                                <connections>
+                                    <segue destination="cBV-5C-bGx" kind="show" id="FEA-2V-pGG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kIa-yT-c09">
+                                <rect key="frame" x="192" y="226" width="31" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Nani"/>
+                                <connections>
+                                    <segue destination="o2b-cM-n6l" kind="show" id="m9K-Bg-wv8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kbf-0L-akU">
+                                <rect key="frame" x="189" y="264" width="37" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Ilham"/>
+                                <connections>
+                                    <segue destination="P5l-K0-UV9" kind="show" id="dRI-TU-RBb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hjm-D8-uQA">
+                                <rect key="frame" x="187" y="302" width="41" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Jason"/>
+                                <connections>
+                                    <segue destination="psU-7a-Yn8" kind="show" id="fD1-9b-1iJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cYJ-7r-Itk">
+                                <rect key="frame" x="191" y="340" width="32" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Aldo"/>
+                                <connections>
+                                    <segue destination="WIS-s2-SFC" kind="show" id="QlF-E0-hbe"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -36,7 +71,66 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="132" y="139"/>
-
+        </scene>
+        <!--Aji-->
+        <scene sceneID="2FW-6k-BPW">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Aji" id="MZp-EK-YCy" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="wqe-bg-9Do"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lW2-Au-PuB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="696" y="-126"/>
+        </scene>
+        <!--Reny-->
+        <scene sceneID="dvQ-Ll-7SJ">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Reny" id="cBV-5C-bGx" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="3ix-OM-lTN"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Ep-4e-OSt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="738" y="-31"/>
+        </scene>
+        <!--Nani-->
+        <scene sceneID="es3-7Y-R8x">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Nani" id="o2b-cM-n6l" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="8NR-1S-1ET"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wPy-Be-zZ7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="709" y="22"/>
+        </scene>
+        <!--Ilham-->
+        <scene sceneID="bT1-Aw-SyS">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Ilham" id="P5l-K0-UV9" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="cAR-hW-4o9"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jvd-tX-aju" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="730" y="61"/>
+        </scene>
+        <!--Jason-->
+        <scene sceneID="RBj-kB-0cN">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Jason" id="psU-7a-Yn8" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="K0M-fT-a6s"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xwq-c7-kzY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="717" y="106"/>
+        </scene>
+        <!--Aldo-->
+        <scene sceneID="7fr-0j-kDr">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Aldo" id="WIS-s2-SFC" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Ggz-D3-5hQ"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vtM-TG-98P" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="747" y="155"/>
         </scene>
     </scenes>
 </document>
